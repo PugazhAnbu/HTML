@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Tag Info</title>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <form>
+                <label for="Name">Name</label>
+                <input type="text">
+                <br>
+
+                <label for="hlo">Password</label>
+                <input type="password">
+                <br>
+                <label for="">Select course</label>
+                <select name="" id="">
+                    <option value="1"></option>
+                    <option value="2">C programming</option>
+                    <option value="3">C++</option>
+                    <option value="4">Java</option>
+                </select>
+
+                <br>
+
+                <!-- multiple keyword use to select the multiple values -->
+                <label for="">Select course</label>
+                <select name="" id="" multiple>
+                    <option value="1"></option>
+                    <option value="2">C programming</option>
+                    <option value="3">C++</option>
+                    <option value="4">Java</option>
+                </select>
+
+                <br>
+
+                <label for="">Date</label>
+                <input type="date">
+
+                <input type="time">
+
+                <!-- if type address use textarea tag -->
+
+                <br>
+                <label for="">Address</label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <br>
+                <label for="">Gender:</label>
+                <input type="radio" name="gen">male
+                <input type="radio"  name="gen">Female
+                <!-- without name attribute you can't select any one.
+                 where as if you use name attribute and the values are same then select only one -->
+                <br>
+                <input type="checkbox"> I agree
+                <br>
+                <input type="submit">
+                <br>
+                <button>save</button>
+
+                <!-- add files in your form  -->
+
+                <input type="file">
+                    <br>
+                <!-- you can choose multiple files and then use multiple keyword -->
+                <input type="file" multiple>
+
+
+                <br>
+
+                <input type="color">
+                <!-- open color select boc -->
+
+                <br>
+                <!-- create range like amazon filpkart price range -->
+                <input type="range">
+            </form>
+        </fieldset>
+
+    </body>
+</html>
